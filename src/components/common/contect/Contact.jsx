@@ -38,12 +38,17 @@ const Contact = () => {
             ></iframe>
           </div>
           <div className="right row">
+<<<<<<< HEAD
             <h1> Contact Us</h1>
+=======
+            <h1>{siteData?.Academics?.exam_schedule} </h1>
+>>>>>>> b64101c2b695ebf392c1c9fb3be032409fbd43bb
             <p>We're open for any suggestion or just to have a chat</p>
 
             <div className="items grid2">
               <div className="box">
                 <h4>ADDRESS:</h4>
+<<<<<<< HEAD
                 <p>{siteData?.contactUs.location||"H Block(Newtown), Action Area I, Newtown, Chakpachuria, New Town, West Bengal 700135"}</p>
               </div>
               <div className="box">
@@ -53,6 +58,18 @@ const Contact = () => {
               <div className="box">
                 <h4>PHONE:</h4>
                 <p>{siteData?.contactUs.phoneNumber}</p>
+=======
+                <p>H Block(Newtown), Action Area I, Newtown, Chakpachuria, New Town, West Bengal 700135</p>
+              </div>
+              <div className="box">
+                <h4>EMAIL:</h4>
+                <p>{siteData?.["About-Us"]}</p>
+
+              </div>
+              <div className="box">
+                <h4>PHONE:</h4>
+                <p>+91 7098628821</p>
+>>>>>>> b64101c2b695ebf392c1c9fb3be032409fbd43bb
               </div>
             </div>
 
@@ -75,4 +92,8 @@ const Contact = () => {
   );
 };
 
+<<<<<<< HEAD
  export default Contact;
+=======
+export default Contact;
+>>>>>>> b64101c2b695ebf392c1c9fb3be032409fbd43bb

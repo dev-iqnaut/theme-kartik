@@ -4,6 +4,10 @@ import BlogCard from "./BlogCard"
 import "./blog.css"
 
 const Blog = () => {
+<<<<<<< HEAD
+=======
+
+>>>>>>> b64101c2b695ebf392c1c9fb3be032409fbd43bb
   return (
     <>
       <Back title='Blog Posts' />
@@ -16,4 +20,8 @@ const Blog = () => {
   )
 }
 
+<<<<<<< HEAD
 export default Blog
+=======
+export default Blog
+>>>>>>> b64101c2b695ebf392c1c9fb3be032409fbd43bb

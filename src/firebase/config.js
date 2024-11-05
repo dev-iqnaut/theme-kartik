@@ -16,7 +16,11 @@ const firebaseConfig = {
     storageBucket: "testing-king-f4bc5.appspot.com",
     messagingSenderId: "401822606909",
     appId: "1:401822606909:web:9ce11aae80adffea95ec54",
+<<<<<<< HEAD
     measurementId: "G-8RPW8JHC9Z"
+=======
+    measurementId: "G-8RPW8JHC9Z"
+>>>>>>> b64101c2b695ebf392c1c9fb3be032409fbd43bb
 };
 
 // Initialize Firebase
@@ -27,7 +31,11 @@ const deb =getFirestore(app);
 // export {deb}
 const getSiteData= async()=>{
     try {
+<<<<<<< HEAD
         const id="www.ascent.in"
+=======
+        const id="www.educator.in"
+>>>>>>> b64101c2b695ebf392c1c9fb3be032409fbd43bb
         const listRef=doc(deb,"sites",id);
         const snapshot=await getDoc(listRef);
         const listData=snapshot.data()

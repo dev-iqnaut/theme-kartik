@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b64101c2b695ebf392c1c9fb3be032409fbd43bb
   "name": "school_website",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +14,11 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1",
+=======
+    "react-scripts": "5.0.1",
+>>>>>>> b64101c2b695ebf392c1c9fb3be032409fbd43bb
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -37,6 +45,11 @@
       "last 1 safari version"
     ]
   },
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b3e84455cc193b02bd9423a379ae28951b158db7
+>>>>>>> b64101c2b695ebf392c1c9fb3be032409fbd43bb
   "devDependencies": {
     "gh-pages": "^6.2.0"
   }
