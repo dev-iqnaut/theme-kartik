@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "school_website",
   "version": "0.1.0",
   "private": true,
@@ -37,6 +38,8 @@
       "last 1 safari version"
     ]
   },
+=======
+>>>>>>> b3e84455cc193b02bd9423a379ae28951b158db7
   "devDependencies": {
     "gh-pages": "^6.2.0"
   }
